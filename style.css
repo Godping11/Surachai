@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial;
+  text-decoration: none;
+  border: none;
+}
+html{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+svg,rect{
+  fill: #D9D9D9;
+  height: 3px;
+  width: 1000px;
+  margin: 0 auto;
+}
+/*setup*/
+/*header*/
+header{
+  width: 100%;
+}
+header div{
+  display: flex;
+  max-width: 1000px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerTop{
+  justify-content: flex-start;
+}
+header ul{
+  margin-left: 0px;
+}
+header button{
+  background-color: #D9D9D9;
+  height: 50px;
+  width: 130px;
+  font-size: 20px;
+  margin: 0 30px;
+}
+.headerBottom div{
+  width: 600px;
+}
+.headerBottom input{
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.04);
+  width: 100%;
+  border: black solid 2px;
+  border-radius: 5px;
+  padding-left: 30px;
+}
+.headerBottom div img{
+  margin-left: 5px;
+  height: 18px;
+  position: absolute;
+}
+header img{
+  height: 50px;
+}
+/*header*/
+/*hero section*/
+.heroSection{
+  max-width: 1000px;
+  display: flex;
+  padding: 30px 15px;
+}
+.heroSection div{
+  width: 50%;
+}
+.heroSection h1{
+  font-size: 70px;
+  font-weight: 100;
+  margin-bottom: -10px;
+}
+.heroSection p{
+  font-size: 25px;
+}
+.heroSection button{
+  margin-left: 10px;
+  margin-top: 5px;
+  height: 50px;
+  width: 170px;
+  font-size: 20px;
+  background-color: #D9D9D9;
+}
+.heroSection img{
+  width: 50%;
+}
+/*hero section*/
+/*section2*/
+.section2{
+  display: flex;
+  align-items: center;
+  margin-top: -3px;
+  margin-bottom: -9px;
+}
+.section2 img{
+  width: 55%;
+}
+.section2 h1{
+  margin-left: 4%;
+  font-size: 60px;
+  font-weight: 100;
+}
+/*section2*/
+/*section3*/
+.section3{
+  margin-top: -10;
+  max-width: 1000px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("image/background section3.png");
+}
+.section3 h1{
+  font-size: 60px;
+  font-weight: 300;
+}
+/*section3*/
+/*footer*/
+footer{
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  background-image: url("image/background footer.png");
+  background-size: cover;
+}
+footer svg,footer rect{
+  margin-bottom: 11px !important;
+}
+footer ul{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+a{
+  font-size: 30px;
+  color: black;
+}
+footer div{
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+}
+footer img{
+  height: 50px;
+  margin: 10px;
+}
+/*footer*/
